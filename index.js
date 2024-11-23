@@ -12,7 +12,7 @@ app.use(express.static(path.resolve(__dirname, "dist")));
 
 // Serve index.html (or other entry point) for any other route
 app.get("/", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "dist", "index.html"));
+  res.sendFile(path.resolve(__dirname, "dist"));
 });
 
 // Initialize Socket.IO
