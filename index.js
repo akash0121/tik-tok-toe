@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
 // Initialize Socket.IO
 const io = new Server(httpServer, {
   cors: {
-    origin: "https://tik-tok-3uv4abmco-akash0121s-projects.vercel.app", // Frontend URL
+    origin: "https://vercel.com/akash0121s-projects/tik-tok-toe", // Frontend URL
     methods: ["GET", "POST"],
     credentials: true,
   },
